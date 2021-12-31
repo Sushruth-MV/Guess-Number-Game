@@ -1,0 +1,43 @@
+.App
+{
+    
+   
+    width: 600px;
+   margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+   border: black solid 5px;
+   padding: 50px;
+    background-color: rgb(245, 241, 10);
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+.App button
+{
+    color:rgb(17, 16, 17);
+    margin-top: 30px;
+    background-color: rgb(253, 116, 5);
+height: 35px;
+width: 120px;
+border-radius: 30px;
+border-width: 3px;
+border-color: black;}
+.userinputs
+{
+     flex-direction: row;
+}
+.userinputs input
+{
+   
+    
+    font-size: 20px;
+    height: 45px;
+   width: 400px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   background-color: rgb(247, 239, 239);
+}

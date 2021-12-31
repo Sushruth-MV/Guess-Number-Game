@@ -1,0 +1,81 @@
+*{
+  margin: 5;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #fae19d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 1em;
+}
+.container{
+  height: 550px;
+  width: 650px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.card{
+  background-color: rgb(136, 132, 132);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transform: rotateY(180deg);
+}
+
+.card text{
+  
+  font-weight: bolder;
+  font-size: 30px;
+ visibility: hidden;
+  color: black;
+  }
+
+.card.active{
+  transform: rotateY(0);
+
+}
+.card.correct{
+  background-color: #39e916;
+}
+.card.wrong{
+  background-color: #f00d0d;
+}
+
+.card.active text{
+  visibility: visible;
+}
+.header button{
+  color:rgb(17, 16, 17);
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgb(50, 103, 163);
+  height: 45px;
+  width: 150px;
+  border-radius: 30px;
+  border-width: 3px;
+  border-color: black;
+  font-size: 20px;
+}
+.header
+{
+  padding: 10px;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+.header h1{
+   text-align: end;
+}
